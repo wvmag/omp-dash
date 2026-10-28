@@ -1,0 +1,13 @@
+{
+  "patterns": [
+    {
+      "_comment": "Any regex match in a session's name or task text renders as a link chip. {0} is the whole match, {1}..{9} are capture groups.",
+      "pattern": "[A-Z][A-Z0-9]+-[0-9]+",
+      "url": "https://jira.example.com/browse/{0}"
+    },
+    {
+      "pattern": "PR #([0-9]+)",
+      "url": "https://github.com/your-org/your-repo/pull/{1}"
+    }
+  ]
+}
