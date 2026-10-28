@@ -8,9 +8,12 @@ One card per session: name, model, status (working, idle, ended), current todos,
 
 ## Install
 
-1. Copy `omp-dash.ts` and `server.py` to `~/.omp/agent/extensions/`.
-2. Start the server: `python3 ~/.omp/agent/extensions/server.py`. The extension starts it on its own when a session opens and no server runs.
-3. Open `http://127.0.0.1:8734`.
+```sh
+omp plugin install github:wvmag/omp-dash
+```
+
+If the first install fails, run the same command with `--force`. Then open `http://127.0.0.1:8734`.
+The extension starts the server on its own when a session opens and no server runs.
 
 ## Configuration
 
