@@ -1,0 +1,16 @@
+{
+  "name": "omp-dash",
+  "version": "0.1.0",
+  "description": "Local web dashboard for omp coding-agent sessions: status, todos, summaries, pinned links, and remote control.",
+  "license": "MIT",
+  "repository": "github:wvmag/omp-dash",
+  "keywords": [
+    "omp",
+    "pi-coding-agent",
+    "dashboard",
+    "extension"
+  ],
+  "omp": {
+    "extensions": ["./omp-dash.ts"]
+  }
+}
